@@ -14,5 +14,10 @@ public class Player {
 
     String point;
 
+    boolean advantage = false;
 
+
+    public Player(String point) {
+        this.point = point;
+    }
 }
